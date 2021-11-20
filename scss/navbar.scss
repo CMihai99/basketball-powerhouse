@@ -109,10 +109,12 @@
   }
 }
 
-// phones
-@media (min-width: 320px) and (max-width: 480px),
-(min-width: 481px) and (max-width: 767px) {}
+// Phones
+@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
+  /* foo */
+}
 
-// tablets
-@media (min-width: 768px) and (max-width: 1024px),
-(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+// Tablets
+@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* foo */
+}

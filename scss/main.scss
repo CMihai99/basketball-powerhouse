@@ -13,6 +13,7 @@
   --links: #337ff0;
   --borders: #858585;
   --border-radius: 10px;
+
   scrollbar-width: thin;
   box-sizing: border-box;
 }
@@ -36,7 +37,7 @@ p {
 
 strong {
   color: #707070;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", sans-serif;
   font-weight: 600;
 }
 
@@ -71,10 +72,12 @@ strong {
   margin: 0;
 }
 
-// phones
-@media (min-width: 320px) and (max-width: 480px),
-(min-width: 481px) and (max-width: 767px) {}
+// Phones
+@media (min-width: 320px) and (max-width: 480px), (min-width: 481px) and (max-width: 767px) {
+  /* foo */
+}
 
-// tablets
-@media (min-width: 768px) and (max-width: 1024px),
-(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+// Tablets
+@media (min-width: 768px) and (max-width: 1024px), (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* foo */
+}
