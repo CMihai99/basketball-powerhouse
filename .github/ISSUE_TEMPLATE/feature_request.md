@@ -1,6 +1,6 @@
 ---
 name: Feature
-about: Request a feature to help improve Fyndro.
+about: Request a feature to help improve Basketball Powerhouse.
 title: '[Feature]'
 labels: 'feature'
 assignees: ''
