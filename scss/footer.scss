@@ -1,0 +1,75 @@
+// ===-----------------------------------------------------------------------------------===
+// Copyright (c) 2021 Calinescu Mihai, Bencu Bogdan
+//
+// For copying notice, see https://github.com/CMihai99/basketball-powerhouse/blob/main/COPYING.
+// For licenses we use, see https://github.com/CMihai99/basketball-powerhouse/tree/main/LICENSES.
+// ===-----------------------------------------------------------------------------------===
+
+:root {
+  --background: #fff;
+  --divider: #dbdbdb;
+  --text: #5c5c5c;
+  --gray: #8b8b8b;
+}
+
+footer {
+  background-color: var(--background);
+  display: flex;
+  padding-left: 18.125rem;
+}
+
+.section {
+  padding: 15px 50px 25px;
+
+  h3 {
+    color: #777777;
+    letter-spacing: 0.5px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13.5px;
+    margin-bottom: 10.5px;
+  }
+
+  ul {
+    padding: 0;
+  
+    li {
+      padding: 3.5px 0;
+      list-style-type: none;
+      color: var(--text);
+  
+      a {
+        color: var(--gray);
+        text-decoration: none;
+        font-size: 14.5px;
+        margin: 0;
+    
+        &:hover {
+          color: var(--text);
+        }
+    
+        &:visited {
+          color: var(--gray);
+          text-decoration: none;
+          font-size: 14.5px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.trademark {
+  padding: 157px 0 0 0;
+  font-size: 13.5px;
+  color: var(--gray);
+}
+
+// phones
+@media (min-width: 320px) and (max-width: 480px),
+(min-width: 481px) and (max-width: 767px) {}
+
+// tablets
+@media (min-width: 768px) and (max-width: 1024px),
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}

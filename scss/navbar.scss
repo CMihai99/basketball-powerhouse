@@ -1,0 +1,118 @@
+// ===-----------------------------------------------------------------------------------===
+// Copyright (c) 2021 Calinescu Mihai, Bencu Bogdan
+//
+// For copying notice, see https://github.com/CMihai99/basketball-powerhouse/blob/main/COPYING.
+// For licenses we use, see https://github.com/CMihai99/basketball-powerhouse/tree/main/LICENSES.
+// ===-----------------------------------------------------------------------------------===
+
+:root {
+  --background: #fff;
+  --black: #000;
+  --text: #5c5c5c;
+  --links: #337ff0;
+  --borders: #858585;
+  --border-radius: 50px;
+}
+
+.navbar {
+  background-color: var(--background);
+  height: 65px;
+  margin: 0;
+  border-radius: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-title {
+  margin: 19.5px 0 0 50px;
+  color: black;
+  text-decoration: none;
+  transition: opacity 0.2s;
+
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+}
+
+.nav-icon {
+  width: 36px;
+  height: 36px;
+  margin: -49px 0 0 320px;
+}
+
+.search-toggle-bar {
+  input {
+    color: var(--borders);
+
+    &::placeholder {
+      color: var(--borders);
+    }
+
+    &:focus {
+      opacity: 0.9;
+    }
+  }
+}
+
+.form-control {
+  width: 405px;
+  height: 30px;
+  margin: -49px 0 0 420px;
+  border-radius: var(--border-radius);
+  border: 1px var(--borders);
+  box-shadow: 0 0 1.75px var(--borders);
+  transition: box-shadow 0.2s;
+
+  &:focus {
+    box-shadow: 0 0 2px var(--borders);
+  }
+}
+
+.dropdown-menu {
+  .divider {
+    height: 0.75px;
+    margin: 6px 0;
+  }
+}
+
+.options-toggle-icons {
+  color: var(--black);
+  cursor: pointer;
+  transition: opacity 0.2s;
+  margin: 23.75px 65px 0 0;
+  padding: 0;
+  background-color: transparent;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+#options-menu {
+  border-radius: 7px;
+  margin: 10px 60px 0 0;
+  box-shadow: 1px 1px 18px rgba(17, 8, 8, 0.1);
+  animation: dropdownFadeIn 0.2s ease-in-out;
+  will-change: transform;
+}
+
+@keyframes dropdownFadeIn {
+  from {
+    margin-top: -15px;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+// phones
+@media (min-width: 320px) and (max-width: 480px),
+(min-width: 481px) and (max-width: 767px) {}
+
+// tablets
+@media (min-width: 768px) and (max-width: 1024px),
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
