@@ -1,6 +1,6 @@
 ---
 name: Bug
-about: Report a bug to help improve Fyndro.
+about: Report a bug to help improve Basketball Powerhouse.
 title: "[Bug]"
 labels: 'bug'
 assignees: ''
