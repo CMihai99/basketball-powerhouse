@@ -11,7 +11,7 @@ For licenses we use, see https://github.com/CMihai99/basketball-powerhouse/tree/
 
 [![GitHub issues](https://img.shields.io/github/issues/CMihai99/basketball-powerhouse)](https://github.com/CMihai99/basketball-powerhouse/issues?q=is%3Aissue+is%3Aopen)
 [![Github issues](https://img.shields.io/github/issues-closed/CMihai99/basketball-powerhouse)](https://github.com/CMihai99/basketball-powerhouse/issues?q=is%3Aissue+is%3Aclosed)
-[![Codacy](https://img.shields.io/codacy/grade/23f542e075834f949e2871a52692a5da)](https://app.codacy.com/gh/CMihai99/basketball-powerhouse/dashboard)
+[![Codacy](https://img.shields.io/codacy/grade/1fad7d29d124433ba078f253932446d3)](https://app.codacy.com/gh/CMihai99/basketball-powerhouse/dashboard)
 
 Basketball Powerhouse will help make your game flawless, featuring player resources
 such as drills, workouts and more, coaching resources such as plays, strategies
