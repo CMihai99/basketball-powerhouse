@@ -1,0 +1,18 @@
+{
+  "name": "@cmihai99/basketball-powerhouse",
+  "version": "1.0.0",
+  "description": "Basketball Powerhouse will help make your game flawless, featuring player resources such as drills, workouts and more.",
+  "author": {
+    "name": "Basketball Powerhouse"
+  },
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CMihai99/basketball-powerhouse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CMihai99/basketball-powerhouse/issues"
+  },
+  "homepage": "https://github.com/CMihai99/basketball-powerhouse"
+}
